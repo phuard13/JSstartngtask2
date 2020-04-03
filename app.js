@@ -33,7 +33,7 @@ function interestCalculator(arr) {
     }
   });
 
-  // caculating the interest
+  // caculating the interestdata
 
   const interestData = arr.map(el => {
     const { principal, time, rate } = el;
